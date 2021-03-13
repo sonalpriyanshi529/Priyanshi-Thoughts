@@ -1,0 +1,502 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* user-select: none; */
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* Navigation */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+  /* display: inline-flex; */
+}
+
+nav ul li a:not(.home) {
+  display: block;
+  /* float: left; */
+  color: white;
+  text-align: center;
+  margin: 0px 3px;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-bottom: 5px solid transparent;
+
+}
+
+nav ul li a {
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+nav ul li a:hover:not(.active) {
+  /* background-color: rgb(228, 228, 228); */
+  /* color: rgb(133, 89, 202); */
+  /* color: #bbbbbb; */
+  transform: scale(1.09);
+  transition: 0.6s ease;
+  border-bottom: 5px solid #8559ca;
+}
+
+.active {
+  background-color: #8559ca;
+}
+
+.active:hover {
+  /* transform: scale(1.09); */
+  transition: 0.6s ease;
+}
+
+.home {
+  display: block;
+  /* float: left; */
+  color: white;
+  text-align: center;
+  margin: 0px 3px 0px 0px;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 1.3em;
+  border-bottom: 5px solid transparent;
+}
+
+
+
+/* Header */
+header {
+  background: rgb(0, 0, 0, 0.7) url("https://1.bp.blogspot.com/-cTaZo1XYIT8/YBAxUpGfLeI/AAAAAAAAAvM/6emyyDkZqmYXFxLABhJ4-va4C1GkOzR-ACLcBGAsYHQ/s320/book2.jpg");
+  width: auto;
+  border-bottom-left-radius: 50% 20px;
+  border-bottom-right-radius: 50% 20px;
+  background-blend-mode: darken;
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 25px;
+  background-size: cover;
+}
+
+header h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-bottom: 10px;
+  text-shadow: 3px 3px 8px #000000;
+
+}
+
+header p {
+  font-family: 'Redressed', cursive;
+  padding-right: 20px;
+  padding-bottom: 2px;
+  margin-bottom: 10px;
+}
+
+.text {
+  padding-left: 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+header img {
+  width: 20%;
+  margin: 20px;
+  border: 4px solid white;
+  border-radius: 100%;
+  display: block;
+}
+
+header img:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.09);
+  transition: 0.6s ease;
+}
+
+.btn {
+  background: none;
+  color: white;
+  border: 2px solid white;
+  padding: 5px 10px 5px 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'Yellowtail', cursive;
+  float: left;
+  box-shadow: 3px 3px 8px #000000;
+}
+
+.btn:hover {
+  color: black;
+  background-color: white;
+  transform: scale(1.10);
+  transition: 0.6s ease;
+}
+
+
+/* First Section */
+.first-sec {
+  float: left;
+  /* display: flex; */
+  width: 60%
+}
+
+
+
+.hindi-post,
+.hindi-post-2 {
+  padding-left: 2px;
+  line-height: 25px;
+  padding: 10px;
+  margin-left: 5px;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px #a1a1a1;
+  margin-bottom: 35px;
+}
+
+.hindi-post h1,
+.hindi-post-2 h1 {
+  color: rgb(133, 89, 202);
+  padding-bottom: 10px;
+}
+
+.hindi-post p,
+.hindi-post-2 p,
+.two-sec p {
+  font-family: "Raleway", sans-serif;
+}
+
+.post-btn {
+  cursor: pointer;
+  background-color: white;
+  padding: 10px;
+  margin: 20px 0px 12px 0px;
+  font-family: "Raleway", sans-serif;
+  /* background-color: red; */
+  background-image: linear-gradient(to bottom right, rgb(55, 0, 255), white);
+  /* width: 100px; */
+  font-size: 17px;
+
+}
+
+.post-btn a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.post-btn:hover {
+  background-image: linear-gradient(to bottom right, white, rgb(55, 0, 255));
+  transform: scale(1.02);
+  transition: 0.6s ease;
+}
+
+
+/* Second Section */
+.two-sec {
+  width: 40%;
+  float: right;
+  /* display:inline-block; */
+}
+
+
+/* About */
+.about h2 {
+  color: #8559ca;
+  font-family: "Raleway", sans-serif;
+  padding: 10px 0px 10px 0px;
+}
+
+.about-img {
+  background: rgb(0, 0, 0, 0.7) url("https://1.bp.blogspot.com/-atCwmkqPJwo/YBAxUhLHyII/AAAAAAAAAvQ/wDQi6OGfMAoRfg6muX9XEo2ckxeiau67wCLcBGAsYHQ/s320/book1.webp");
+  width: 100%;
+  color: white;
+  padding-top: 60px;
+  min-height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-blend-mode: darken;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about {
+  padding-left: 2px;
+  line-height: 20px;
+  padding: 10px;
+  margin-left: 20px;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px #a1a1a1;
+  margin-bottom: 35px;
+}
+
+/* Popular Posts */
+.post {
+  margin-left: 20px;
+  background-color: white;
+  box-shadow: 3px 3px 3px 3px #a1a1a1;
+  margin-bottom: 35px;
+}
+
+.post h2 {
+  border: #f1f1f1 solid 1px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  color: #8559ca;
+  font-family: "Raleway", sans-serif;
+}
+
+.post ul {
+  list-style-type: none;
+  /* padding: 10px; */
+
+}
+
+.post ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.post ul a li {
+  padding: 10px;
+  line-height: 24px;
+  font-family: 'Yusei Magic', sans-serif;
+}
+
+.post ul a li:hover {
+  background-color: rgb(172, 172, 172);
+}
+
+
+/* story.html */
+.stories-vishvas h1 {
+  color: purple;
+}
+
+.stories-vishvas {
+  display: flex;
+  margin: 20px;
+  line-height: 25px;
+  margin-bottom: 60px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 40px;
+}
+
+.stories-vishvas img {
+  width: 50%;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+
+.none {
+  display: none;
+}
+
+
+.stories-pluto {
+  /* margin-top: 30px; */
+  display: flex;
+  margin: 20px;
+  line-height: 25px;
+  font-family: "Raleway", sans-serif;
+
+}
+
+.stories-pluto img {
+  width: 50%;
+  margin-right: 20px;
+  margin-top: 60px;
+}
+
+.stories-pluto h1 {
+  color: purple;
+}
+
+.pluto-mobile {
+  display: none;
+  color: purple;
+  margin-top: 60px;
+}
+
+.pluto-comp {
+  color: purple;
+  margin-top: 60px;
+
+}
+
+/* poem.html */
+.poem {
+  margin: 20px;
+  line-height: 25px;
+  margin-bottom: 60px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 40px;
+  display: flex;
+}
+
+
+
+.poem img {
+  width: 50%;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+
+
+.comp-foot:after,
+.comp-foot:before {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.comp-foot {
+
+  color: white;
+  background: #030002;
+  clear: both;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+
+  justify-content: center;
+  align-items: center;
+  
+}
+.comp-foot img{
+  width: 90px;
+ 
+}
+.comp-foot img:hover{
+  transform: scale(1.09);
+  transition: 0.6s ease;
+}
+
+.comp-foot a{
+  color: rgb(212, 212, 212);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 0px 10px;
+  cursor: pointer;
+  transition: 0.10s ease;
+
+}
+.comp-foot .copy{
+  padding: 20px;
+  font-size: 15px;
+}
+.comp-foot a:hover{
+  color: rgb(255, 170, 59);
+}
+
+
+.mob-foot {
+  background: black;
+  color: white;
+  /* display: flex; */
+  font-family: 'Ubuntu', sans-serif;
+  display: none;
+  clear: both;
+
+}
+
+.links{
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
+  padding-top: 10px;
+}
+
+.mob-foot a {
+  color: rgb(212, 212, 212);
+  text-decoration: none;
+  padding: 0px 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin: 10px 0px;
+  transition: 0.10s ease;
+
+}
+
+.mob-foot a:hover {
+  color: rgb(255, 170, 59);
+}
+
+.mob-foot img {
+  width: 90px
+}
+
+.mob-foot img:hover{
+  transform: scale(1.09);
+  transition: 0.6s ease;
+}
+
+.mob-foot .content{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 15px;
+  padding-left: 30px;
+}
+.topp{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+.comp-foot-btn {
+  background: #8559ca;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.pre {
+  cursor: not-allowed;
+}
