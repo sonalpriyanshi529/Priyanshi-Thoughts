@@ -91,7 +91,8 @@ nav ul li a:hover:not(.active) {
 
 /* Header */
 header {
-  background: rgb(0, 0, 0, 0.7) url("https://1.bp.blogspot.com/-cTaZo1XYIT8/YBAxUpGfLeI/AAAAAAAAAvM/6emyyDkZqmYXFxLABhJ4-va4C1GkOzR-ACLcBGAsYHQ/s320/book2.jpg");
+  /* background: rgb(0, 0, 0, 0.7) url("https://1.bp.blogspot.com/-cTaZo1XYIT8/YBAxUpGfLeI/AAAAAAAAAvM/6emyyDkZqmYXFxLABhJ4-va4C1GkOzR-ACLcBGAsYHQ/s320/book2.jpg"); */
+  background: rgb(0, 0, 0, 0.7) url("me2.jpeg");
   width: auto;
   border-bottom-left-radius: 50% 20px;
   border-bottom-right-radius: 50% 20px;
