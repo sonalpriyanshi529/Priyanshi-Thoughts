@@ -15,6 +15,7 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap");
 
 /* Navigation */
 nav {
@@ -185,7 +186,30 @@ header img:hover {
   background-color: white;
   box-shadow: 3px 3px 3px 3px #a1a1a1;
   margin-bottom: 35px;
+  /* border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s; */
 }
+
+.hindi-post:hover,
+.hindi-post-2:hover {
+  transform: translateY(-5px);
+}
+
+.card-img {
+  height: 300px;
+  overflow: hidden;
+}
+
+.card-img img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  transition: transform 0.5s;
+}
+
+
 
 .hindi-post h1,
 .hindi-post-2 h1 {
@@ -397,18 +421,20 @@ header img:hover {
 
   justify-content: center;
   align-items: center;
-  
+
 }
-.comp-foot img{
+
+.comp-foot img {
   width: 90px;
- 
+
 }
-.comp-foot img:hover{
+
+.comp-foot img:hover {
   transform: scale(1.09);
   transition: 0.6s ease;
 }
 
-.comp-foot a{
+.comp-foot a {
   color: rgb(212, 212, 212);
   text-decoration: none;
   text-transform: uppercase;
@@ -418,11 +444,13 @@ header img:hover {
   transition: 0.10s ease;
 
 }
-.comp-foot .copy{
+
+.comp-foot .copy {
   padding: 20px;
   font-size: 15px;
 }
-.comp-foot a:hover{
+
+.comp-foot a:hover {
   color: rgb(255, 170, 59);
 }
 
@@ -437,7 +465,7 @@ header img:hover {
 
 }
 
-.links{
+.links {
   /* align-items: center;
   justify-content: center; */
   text-align: center;
@@ -464,19 +492,20 @@ header img:hover {
   width: 90px
 }
 
-.mob-foot img:hover{
+.mob-foot img:hover {
   transform: scale(1.09);
   transition: 0.6s ease;
 }
 
-.mob-foot .content{
+.mob-foot .content {
   align-items: center;
   justify-content: center;
   display: flex;
   font-size: 15px;
   padding-left: 30px;
 }
-.topp{
+
+.topp {
   font-size: 12px;
   text-transform: uppercase;
 }
